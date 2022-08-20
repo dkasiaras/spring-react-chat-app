@@ -21,7 +21,10 @@ spring:
     spring.jpa.hibernate.ddl-auto=update: update
 
   h2:
-    console.enabled: true
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
 
 # Config For SPRING BOOT 2. Will replace what is provided below this commented block
 management:
