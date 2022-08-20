@@ -1,0 +1,44 @@
+action-monitor/target/
+*.jar
+**/rebel.xml
+react-client/node_modules/*
+
+
+!**/.mvn/wrapper/maven-wrapper.jar
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+.jpb
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Logs ###
+current/
+archive/
+
+### Generated reports ###
+*.xls
+*.xlsx
+
+# Package Files #
+*.jar
+*.war
+*.ear
